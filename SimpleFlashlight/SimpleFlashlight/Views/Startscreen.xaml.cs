@@ -12,9 +12,9 @@ using Xamarin.Essentials;
 namespace SimpleFlashlight.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Startbildschirm : ContentPage
+    public partial class Startscreen : ContentPage
     {
-        public Startbildschirm()
+        public Startscreen()
         {
             InitializeComponent();
         }

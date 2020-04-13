@@ -11,7 +11,7 @@ namespace SimpleFlashlight
         {
             InitializeComponent();
 
-            MainPage = new Startbildschirm();
+            MainPage = new Startscreen();
         }
 
         protected override void OnStart()
