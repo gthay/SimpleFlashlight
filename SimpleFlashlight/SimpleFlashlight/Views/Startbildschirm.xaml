@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SimpleFlashlight.Views.Startbildschirm">
+  
+    <StackLayout HorizontalOptions="Fill" VerticalOptions="Fill">
+
+        <Label LineBreakMode="WordWrap" HorizontalOptions="End" Margin="20" >
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="Developer" TextColor="Blue" TextDecorations="Underline" >
+                        <Span.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="LinkGithub" />
+                        </Span.GestureRecognizers>
+                    </Span>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+
+        <StackLayout VerticalOptions="CenterAndExpand"  HorizontalOptions="Center">
+            <Image x:Name="img1" Source="lightofficon.png" HorizontalOptions="Center" ScaleX="0.5" ScaleY="0.5">
+
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                Tapped="FlashlightHandler"
+                NumberOfTapsRequired="1" />
+                </Image.GestureRecognizers>
+
+            </Image>
+            <!--<Button Text="Light On" HorizontalOptions="Center" VerticalOptions="Center" Clicked="Button_LightOn" />
+            <Button Text="Light Off" HorizontalOptions="Center" VerticalOptions="Center" Clicked="Button_LightOff"/> !-->
+        </StackLayout>
+        
+    </StackLayout>
+
+</ContentPage>
