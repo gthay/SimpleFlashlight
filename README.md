@@ -1,6 +1,9 @@
 # SimpleFlashlight
  Simple Flashlight Android App based on Xamarin Forms
 
+## How to
+It's simple! Just open the app and turn the camera flashlight on or off by pressing the blue lightbulb icon.
+
 ## Screenshots: <br>
 
 Menu:<br>
