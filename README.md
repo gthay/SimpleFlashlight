@@ -1,7 +1,7 @@
 # SimpleFlashlight
  Simple Flashlight Android App based on Xamarin Forms
 
-Screenshots: <br>
+## Screenshots: <br>
 
 Menu:<br>
 <img src="https://github.com/gthay/SimpleFlashlight/blob/master/SimpleFlashlight/SimpleFlashlight.Android/Resources/drawable/ScreenshotMenu.jpg" width="300" height="600" alt="Menu" />
